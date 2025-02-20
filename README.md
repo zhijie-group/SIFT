@@ -41,6 +41,9 @@ Our testing is based on Opencompass (version 0.3.4). For installation and usage 
 ### **Dataset 📂**
 Create a new file named `test_ori.jsonl` in the directory `/opencompass/data/gsm8k/`, and ensure that the format of this dataset matches that of `/opencompass/data/gsm8k/test.jsonl`. You can replace the content with the dataset you want to test.
 
+We also provide some datasets for evaluation in the ‘data’ folder. You may need to modify the key names in the jsonl file, such as changing ‘problem’ to ‘question’ and ‘answer’ to ‘gold’.They can be used to replace the content in ‘/opencompass/data/gsm8k/test_ori.jsonl’.
+
+
 ### **Preparation Steps(using GSM8K as an example) 🔧**
 
 #### **File Replacements 🔄**
@@ -71,7 +74,7 @@ Copy the following files into `/opencompass`:
 
 ✅ These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
 
-✅ If you want to test a different dataset, such as math-500, simply replace the content of `/opencompass/data/gsm8k/test.jsonl` with the math-500 dataset, keeping the format unchanged.
+✅ If you want to test a different dataset, such as math-500, simply replace the content of `/opencompass/data/gsm8k/test_ori.jsonl` with the math-500 dataset, keeping the format unchanged.
 
 ## 🚀 Running the Experiments
 After setting up the environment, run the experiment with:

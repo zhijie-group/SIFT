@@ -45,9 +45,9 @@ Put your data in `/opencompass/data/gsm8k/test.jsonl`.
 
 #### **File Replacements 🔄**
 Replace the following files with the provided ones:
-- 🔹 Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
-- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
-- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
+🔹 Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
+🔹 Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
+🔹 Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
 
 #### **Add Dataset Configurations 📑**
 Copy the following files into `/opencompass/configs/datasets/gsm8k`:

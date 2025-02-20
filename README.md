@@ -27,9 +27,7 @@ Shanghai Jiao Tong University
 
 ## 🛠️ Environment Setup
 
-## 📌 Installation Opencompass
-
-### Create your virtual environment
+### Installation Opencompass
 
 ```sh
 conda create --name opencompass python=3.10 -y

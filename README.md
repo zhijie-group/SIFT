@@ -20,7 +20,7 @@ Shanghai Jiao Tong University
 <br>
 
 ## 🧐 What is SIFT?
-**SIFT** is a novel post-training approach designed to improve the reasoning accuracy of large language models (LLMs) by mitigating context misinterpretation issues. It introduces the Sticker, a self-generated highlight that emphasizes key contextual information, ensuring more precise reasoning. SIFT refines predictions by comparing responses with and without the Sticker, using forward optimization and inverse generation to align facts with queries. Experiments across diverse models (3B to 100B+) and benchmarks (e.g., GSM8K, MATH-500) show consistent performance gains. Notably, SIFT boosts DeepSeek-R1’s pass@1 accuracy on AIME2024 from 78.33% to 85.67%, setting a new state-of-the-art in open-source LLMs.
+**SIFT** is a novel post-training approach designed to improve the reasoning accuracy of large language models (LLMs) by mitigating context misinterpretation issues. It introduces the Sticker, a self-generated highlight that emphasizes key contextual information, ensuring more precise reasoning. Given the curated Sticker, SIFT generates two predictions---one from the original query and one from the query augmented with the Sticker. If they differ, the Sticker is sequentially refined via forward optimization (to better align the extracted facts with the query) and inverse generation (to conform with the model’s inherent tendencies) for more faithful reasoning outcomes. Experiments across diverse models (3B to 100B+) and benchmarks (e.g., GSM8K, MATH-500) show consistent performance gains. Notably, SIFT boosts DeepSeek-R1’s pass@1 accuracy on AIME2024 from 78.33% to 85.67%, setting a new state-of-the-art in open-source LLMs.
 
 </div>
 

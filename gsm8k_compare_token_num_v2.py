@@ -11,7 +11,11 @@ output_file = input_file.split('predictions')[0] + 'final.jsonl'
 output_acc_file = input_file.split('predictions')[0] + 'accuracy.json'
 
 def gsm8k_dataset_postprocess(text: str) -> str:
-    return text.split('#### ')[1].replace(',', '')
+    if '#### ' in text:
+        result = text.split('#### ')[1].replace(',', '')
+    else:
+        result = text
+    return result
 
 ############################################ gsm8k_postprocess ############################################
 def gsm8k_postprocess(text: str) -> str:

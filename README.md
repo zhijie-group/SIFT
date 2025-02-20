@@ -79,6 +79,6 @@ bash eval_3b.sh
 
 
 ## Acknowledgements
-Our work mainly builds upon [OpenCompass](https://github.com/open-compass/opencompass). We also used the open-source models [Qwen](https://github.com/QwenLM/Qwen2.5) and [LLaMA](https://github.com/meta-llama/llama3) for local evaluation. The DeepSeek-r1 model was evaluated via API calls.
+Our work mainly builds upon [OpenCompass](https://github.com/open-compass/opencompass). We also used the open-source models [Qwen](https://github.com/QwenLM/Qwen2.5) and [LLaMA](https://github.com/meta-llama/llama3) for local evaluation. The DeepSeek-r1 model was evaluated via API calls.The evaluation results of the O-series models for AIME24 and AIME25 are derived from [AIME-preview](https://github.com/GAIR-NLP/AIME-Preview).
 
 

@@ -1,7 +1,7 @@
 <div align="center">
   
 
-# 🗒️ SIFT
+# <img src="docx/logo.png" width="60"> SIFT
 
 ### SIFT: Grounding LLM Reasoning in Contexts via Stickers
 
@@ -36,11 +36,7 @@ Shanghai Jiao Tong University
 
 ### **Installation Opencompass 🚀**
 
-```sh
-conda create --name opencompass python=3.10 -y
-conda activate opencompass
-pip install -U opencompass
-```
+Our testing is based on Opencompass (version 0.3.4). For installation and usage instructions, refer to [Opencompass GitHub](https://github.com/open-compass/opencompass).
 
 ### **Dataset 📂**
 Put your data in `/opencompass/data/gsm8k/test.jsonl`.

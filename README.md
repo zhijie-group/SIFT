@@ -1,7 +1,7 @@
 <div align="center">
   
 
-# <img src="docx/logo.png" width="50"> SIFT
+# <img src="docx/logo.png" width="50"> 𝕊t𝕚ck to the 𝔽ac𝕥s (SIFT)
 
 ### SIFT: Grounding LLM Reasoning in Contexts via Stickers
 

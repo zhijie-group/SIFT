@@ -70,6 +70,11 @@ Copy the following files into `/opencompass`:
 
 ✅ These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
 
+## 🚀 Running the Experiments
+After setting up the environment, run the experiment with:
+```
+bash eval_3b.sh
+```
 
 
 

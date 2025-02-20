@@ -25,6 +25,12 @@ Shanghai Jiao Tong University
 
 <br>
 
+<p align="center">
+<img src="docx/comparison.png" width="85%">  <!-- Slightly smaller image, adjust width as needed -->
+</p>
+
+<br>
+
 ## 🛠️ Environment Setup
 
 - **Installation Opencompass**
@@ -35,13 +41,7 @@ conda activate opencompass
 pip install -U opencompass
 ```
 - **Dataset**
-<br>
 
-<p align="center">
-<img src="docs/comparision.png" width="85%">  <!-- Slightly smaller image, adjust width as needed -->
-</p>
-
-<br>
 
 
 

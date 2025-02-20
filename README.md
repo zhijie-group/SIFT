@@ -31,9 +31,9 @@ Shanghai Jiao Tong University
 
 <br>
 
-## 🛠️ Environment Setup
+## 🛠️ Environment Setup ⚙️
 
-### **Installation Opencompass**
+### **Installation Opencompass 🚀**
 
 ```sh
 conda create --name opencompass python=3.10 -y
@@ -41,37 +41,38 @@ conda activate opencompass
 pip install -U opencompass
 ```
 
-### **Dataset**
+### **Dataset 📂**
 Put your data in `/opencompass/data/gsm8k/test.jsonl`.
 
-### **Preparation Steps**
+### **Preparation Steps 🔧**
 
-#### **File Replacements**
+#### **File Replacements 🔄**
 Replace the following files with the provided ones:
-- Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
-- Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
-- Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
+- 🔹 Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
+- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
+- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
 
-#### **Add Dataset Configurations**
+#### **Add Dataset Configurations 📑**
 Copy the following files into `configs/datasets/gsm8k`:
-- `gsm8k_a2p.py`
-- `gsm8k_p2a.py`
-- `gsm8k_q_a2a.py`
-- `gsm8k_q_a2p.py`
-- `gsm8k_q2a.py`
-- `gsm8k_q2p.py`
+-  `gsm8k_a2p.py`
+-  `gsm8k_p2a.py`
+-  `gsm8k_q_a2a.py`
+-  `gsm8k_q_a2p.py`
+-  `gsm8k_q2a.py`
+-  `gsm8k_q2p.py`
 
-#### **Add Additional Files**
+#### **Add Additional Files 📂**
 Copy the following files into `/opencompass`:
-- `acc_stage2.py`
-- `acc_stage3.py`
-- `acc_stage4.py`
-- `abs_postprocessing.py`
-- `abs_postprocessing_v2.py`
-- `abs_postprocessing_v3.py`
-- `eval_3b.sh`
+-  `acc_stage2.py`
+-  `acc_stage3.py`
+-  `acc_stage4.py`
+-  `abs_postprocessing.py`
+-  `abs_postprocessing_v2.py`
+-  `abs_postprocessing_v3.py`
+-  `eval_3b.sh`
 
-These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
+✅ These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
+
 
 
 

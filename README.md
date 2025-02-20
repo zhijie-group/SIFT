@@ -39,7 +39,7 @@ Shanghai Jiao Tong University
 Our testing is based on Opencompass (version 0.3.4). For installation and usage instructions, refer to [Opencompass GitHub](https://github.com/open-compass/opencompass).
 
 ### **Dataset 📂**
-Put your data in `/opencompass/data/gsm8k/test.jsonl`. Regardless of the different data you want to use for evaluation, simply ensure that the data format matches this file.
+Create a new file named `test_ori.jsonl` in the directory `/opencompass/data/gsm8k/`, and ensure that the format of this dataset matches that of `/opencompass/data/gsm8k/test.jsonl`. You can replace the content with the dataset you want to test.
 
 ### **Preparation Steps(using GSM8K as an example) 🔧**
 

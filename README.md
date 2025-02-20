@@ -35,7 +35,13 @@ conda activate opencompass
 pip install -U opencompass
 ```
 - **Dataset**
+<br>
 
+<p align="center">
+<img src="docs/comparision.png" width="85%">  <!-- Slightly smaller image, adjust width as needed -->
+</p>
+
+<br>
 
 
 

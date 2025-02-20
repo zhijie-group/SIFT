@@ -53,7 +53,7 @@ Replace the following files with the provided ones:
 - 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
 
 #### **Add Dataset Configurations 📑**
-Copy the following files into `configs/datasets/gsm8k`:
+Copy the following files into `/opencompass/configs/datasets/gsm8k`:
 -  `gsm8k_a2p.py`
 -  `gsm8k_p2a.py`
 -  `gsm8k_q_a2a.py`

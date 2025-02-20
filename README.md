@@ -69,6 +69,7 @@ Copy the following files into `/opencompass`:
 -  `eval_3b.sh`
 
 ✅ These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
+
 ✅ If you want to test a different dataset, such as math-500, simply replace the content of `/opencompass/data/gsm8k/test.jsonl` with the math-500 dataset, keeping the format unchanged.
 
 ## 🚀 Running the Experiments

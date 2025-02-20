@@ -34,6 +34,8 @@ conda create --name opencompass python=3.10 -y
 conda activate opencompass
 pip install -U opencompass
 ```
+- **Installation Opencompass**
+
 
 
 

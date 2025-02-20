@@ -1,5 +1,5 @@
 <div align="center">
-<img src="docx/logo.png" alt="SIFT Logo" width="100">
+<img src="docx/logo.png"  width="10">
 # SIFT
 
 ### SIFT: Grounding LLM Reasoning in Contexts via Stickers

@@ -78,9 +78,8 @@ bash eval_3b.sh
 
 
 
-
-
-
+## Acknowledgements
+Our work builds upon OpenCompass provided by Shanghai AI Lab. We also used the open-source models Qwen and LLaMA for local evaluation. The DeepSeek model is provided by a cloud service platform.
 
 
 

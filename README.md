@@ -3,9 +3,9 @@
 # SIFT
 
 ### SIFT: Grounding LLM Reasoning in Contexts via Stickers
-
+Boxiu Li
 <!-- Authors and affiliations with improved formatting -->
-Zihao Zeng, Xuyao Huang<sup>*</sup>, Boxiu Li<sup>*</sup>, Zhijie Deng<sup>†</sup><br>
+Zihao Zeng, Xuyao Huang*, Boxiu Li*, Zhijie Deng<sup>†</sup><br>
 
 Shanghai Jiao Tong University
 <br>

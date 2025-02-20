@@ -60,6 +60,7 @@ Copy the following files into `/opencompass/configs/datasets/gsm8k`:
 
 #### **Add Additional Files 📂**
 Copy the following files into `/opencompass`:
+-  `gsm8k_compare_token_num_v2.py`
 -  `acc_stage2.py`
 -  `acc_stage3.py`
 -  `acc_stage4.py`

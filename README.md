@@ -27,7 +27,7 @@ Shanghai Jiao Tong University
 
 ## 🛠️ Environment Setup
 
-# 📌 Installation Opencompass
+## 📌 Installation Opencompass
 
 ### Create your virtual environment
 

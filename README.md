@@ -16,6 +16,8 @@ Shanghai Jiao Tong University
 <br>
 
 </div>
+[![ArXiv](https://img.shields.io/badge/ArXiv-2502.14922-B31B1B.svg?style=flat-square)](https://arxiv.org/abs/2502.14922) &nbsp;&nbsp;
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-2502.14922-FFD700.svg?style=flat-square&logo=hugging-face)](https://huggingface.co/papers/2502.14922)
 
 <br>
 
@@ -88,3 +90,16 @@ bash eval_3b.sh
 Our work mainly builds upon [OpenCompass](https://github.com/open-compass/opencompass). We also used the open-source models [Qwen](https://github.com/QwenLM/Qwen2.5) and [LLaMA](https://github.com/meta-llama/llama3) for local evaluation. The DeepSeek-r1 model was evaluated via API calls.The evaluation results of the O-series models for AIME24 and AIME25 are derived from [AIME-preview](https://github.com/GAIR-NLP/AIME-Preview).
 
 
+## Citation
+If you find our paper or codebase useful, please consider citing:
+‘’‘
+@misc{zeng2025siftgroundingllmreasoning,
+      title={SIFT: Grounding LLM Reasoning in Contexts via Stickers}, 
+      author={Zihao Zeng and Xuyao Huang and Boxiu Li and Zhijie Deng},
+      year={2025},
+      eprint={2502.14922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.14922}, 
+}
+’‘’

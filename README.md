@@ -33,11 +33,11 @@ Shanghai Jiao Tong University
 
 <br>
 
-## 🛠️ Environment Setup ⚙️
+## 🛠️ Environment Setup
 
 ### **Installation Opencompass 🚀**
 
-Our testing is based on Opencompass (version 0.3.4). For installation and usage instructions, refer to [Opencompass GitHub](https://github.com/open-compass/opencompass).
+Our testing is based on OpenCompass (version 0.3.4). For installation and usage instructions, refer to [OpenCompass GitHub](https://github.com/open-compass/opencompass).
 
 ### **Dataset 📂**
 Create a new file named `test_ori.jsonl` in the directory `/opencompass/data/gsm8k/`, and ensure that the format of this dataset matches that of `/opencompass/data/gsm8k/test.jsonl`. You can replace the content with the dataset you want to test.
@@ -49,9 +49,9 @@ We also provide some datasets for evaluation in the `data` folder. You may need 
 
 #### **File Replacements 🔄**
 Replace the following files with the provided ones:
-- 🔹 Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
-- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
-- 🔹 Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
+- Replace `/opencompass/models/huggingface_above_v4_33.py` with `huggingface_above_v4_33.py`.
+- Replace `/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py` with `icl_gen_inferencer.py`.
+- Replace `/opencompass/openicl/icl_inferencer/icl_base_inferencer.py` with `icl_base_inferencer.py`.
 
 #### **Add Dataset Configurations 📑**
 Copy the following files into `/opencompass/configs/datasets/gsm8k`:
@@ -86,7 +86,7 @@ bash eval_3b.sh
 
 
 ## Acknowledgements
-Our work mainly builds upon [OpenCompass](https://github.com/open-compass/opencompass). We also used the open-source models [Qwen](https://github.com/QwenLM/Qwen2.5) and [LLaMA](https://github.com/meta-llama/llama3) for local evaluation. The DeepSeek-r1 model was evaluated via API calls.The evaluation results of the O-series models for AIME24 and AIME25 are derived from [AIME-preview](https://github.com/GAIR-NLP/AIME-Preview).
+Our work mainly builds upon [OpenCompass](https://github.com/open-compass/opencompass). We also used the open-source models [Qwen](https://github.com/QwenLM/Qwen2.5) and [LLaMA](https://github.com/meta-llama/llama3) for local evaluation. The DeepSeek-R1 model was evaluated via API calls.The evaluation results of the OpenAI o-series models for AIME24 and AIME25 are derived from [AIME-Preview](https://github.com/GAIR-NLP/AIME-Preview).
 
 
 ## Citation

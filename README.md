@@ -35,7 +35,7 @@ Shanghai Jiao Tong University
 
 ## 🛠️ Environment Setup
 
-### **Installation Opencompass 🚀**
+### **Installation OpenCompass 🚀**
 
 Our testing is based on OpenCompass (version 0.3.4). For installation and usage instructions, refer to [OpenCompass GitHub](https://github.com/open-compass/opencompass).
 

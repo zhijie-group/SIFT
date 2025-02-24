@@ -90,7 +90,7 @@ Our work mainly builds upon [OpenCompass](https://github.com/open-compass/openco
 
 ## Citation
 If you find our paper or codebase useful, please consider citing:
-‘’‘
+```
 @misc{zeng2025siftgroundingllmreasoning,
       title={SIFT: Grounding LLM Reasoning in Contexts via Stickers}, 
       author={Zihao Zeng and Xuyao Huang and Boxiu Li and Zhijie Deng},
@@ -100,4 +100,4 @@ If you find our paper or codebase useful, please consider citing:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2502.14922}, 
 }
-’‘’
+```

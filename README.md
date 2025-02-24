@@ -16,7 +16,9 @@ Shanghai Jiao Tong University
 <br>
 
 </div>
-[![ArXiv](https://img.shields.io/badge/ArXiv-2502.14922-B31B1B.svg?style=flat-square)](https://arxiv.org/abs/2502.14922) &nbsp
+
+[![ArXiv](https://img.shields.io/badge/ArXiv-2502.14922-B31B1B.svg?style=flat-square)](https://arxiv.org/abs/2502.14922) &nbsp;
+
 <br>
 
 ## 🧐 What is SIFT?

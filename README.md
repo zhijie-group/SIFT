@@ -15,10 +15,9 @@ Shanghai Jiao Tong University
 <sup>*</sup>Equal contribution. &nbsp; <sup>†</sup>Corresponding author.
 <br>
 
-</div>
-
 [![ArXiv](https://img.shields.io/badge/ArXiv-2502.14922-B31B1B.svg?style=flat-square)](https://arxiv.org/abs/2502.14922) &nbsp; [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-2502.14922-FFD700.svg?style=flat-square&logo=hugging-face)](https://huggingface.co/papers/2502.14922)
 
+</div>
 <br>
 
 ## 🧐 What is SIFT?

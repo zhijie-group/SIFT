@@ -72,6 +72,7 @@ Copy the following files into `/opencompass`:
 -  `abs_postprocessing_v2.py`
 -  `abs_postprocessing_v3.py`
 -  `eval_3b.sh`
+-  `run_no_random.py`
 
 ✅ These steps ensure the correct setup of the environment and necessary configurations for Opencompass.
 

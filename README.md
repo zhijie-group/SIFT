@@ -74,7 +74,7 @@ Copy the following files into `/opencompass`:
 -  `eval_3b.sh`
 -  `run_no_random.py`
 
-Copy the following file into `/opencompass/opencompass/datasets` and replace the original file:
+Copy the class `NewGSM8KDataset` from the following file into `/opencompass/opencompass/datasets/gsm8k.py` :
 -  `gsm8k.py`
 
 
